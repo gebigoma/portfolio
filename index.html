@@ -1,12 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="has-navbar-fixed-top">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Tina Park</title>
+  <!-- import  konpa icons -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- import bulma.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <!-- import hover animation css -->
+  <link href="css/hover-min.css" rel="stylesheet">
+  <!-- import local stylesheet -->
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <h1>Hello!</h1>
+
+  <!-- NAVBAR -->
+  <nav class="navbar is-transparent is-fixed-top">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">Logo Here</a>
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="#">Home</a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a class="navbar-item">Test #1</a>
+          <a class="navbar-item">Test #2</a>
+          <a class="navbar-item">Test #3</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero is-fullheight hero-image">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Tina Park
+          </h1>
+          <h2 class="subtitle">
+            A web developer yada yada
+          </h2>
+        </div>
+      </div>
+    </section>
+
+  <!-- SUGARFREE GALLERY -->
+  <section class="section reveal section-padding">
+    <div class="container">
+      <div class="columns is-variable bd-klmn-columns is-8">
+        <div class="column is-6">
+          <figure class="image is-4by3 image-border">
+            <a href="https://frozen-reaches-89510.herokuapp.com/" target="_blank">
+              <img src="./images/sugarfree_3.jpeg">
+            </a>
+          </figure>
+        </div>
+        <div class="column">
+          <h1 class="title">Sugarfree Gallery</h1>
+          <h2 class="subtitle">
+            Come discover your next sugar-free recipe. Sugarfree Gallery is an aggregate site of original recipes submitted by healthy
+            bloggers around the world.</h2>
+          <h1>
+            <strong>TECHNOLOGIES:</strong>
+            <br> React.js | Node.js | Mongoose | MongoDB | Express | RESTful API | Axios | JSX | JWT | Amazon S3 | Semantic-UI-CSS
+            | Semantic-UI-React | JavaScript | HTMLS | CSS3 | Heroku</h1>
+          <br>
+          <div class="icon-size">
+            <i class="devicon-react-original colored"></i>
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-mongodb-plain-wordmark colored"></i>
+            <i class="devicon-amazonwebservices-original colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <img src="images/semantic-logo.png" style="width:47px" />
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-heroku-plain-wordmark colored"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SURF BUDDY -->
+  <section class="section reveal section-padding">
+    <div class="container">
+      <div class="columns is-variable bd-klmn-columns is-8">
+        <div class="column">
+          <h1 class="title">Surf Buddy</h1>
+          <h2 class="subtitle">
+            NEVER SURF ALONE! Surf Buddy bridges surfers and their experiences of all the best spots in California. On-site feedback
+            is the best indicator of current conditions.</h2>
+          <h1>
+            <strong>TECHNOLOGIES:</strong>
+            <br> JavaScript | Node.js | Mongoose | MongoDB | Express | RESTful API | Axios | EJS | Passport.js | Method-Override
+            | Semantics UI | Spitcase API | HTML5 | CSS3 | Heroku </h1>
+          <br>
+          <div class="icon-size">
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-mongodb-plain-wordmark colored"></i>
+            <img src="images/semantic-logo.png" style="width:47px" />
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-heroku-plain-wordmark colored"></i>
+          </div>
+        </div>
+        <div class="column is-6">
+          <figure class="image is-5by3 image-border">
+            <a href="https://stark-castle-27893.herokuapp.com/" target="_blank">
+              <img src="./images/surf_buddy.png">
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAMPSITE FINDR -->
+  <section class="section reveal section-padding">
+    <div class="container">
+      <div class="columns is-variable bd-klmn-columns is-8">
+        <div class="column is-6">
+          <figure class="image is-4by3 image-border">
+            <a href="https://enigmatic-ridge-61588.herokuapp.com/" target="_blank">
+              <img src="./images/campsite_findr_2.png">
+            </a>
+          </figure>
+        </div>
+        <div class="column">
+          <h1 class="title">Campsite Findr</h1>
+          <h2 class="subtitle">
+            Find and rate your next campsite here! A crowdsourced app where users can submit details about a campsite they visited. Submit
+            an image, the location, and review the sites!
+          </h2>
+          <h1>
+            <strong>TECHNOLOGIES:</strong>
+            <br> Ruby on Rails | PostgreSQL | Active Admin | Bcrypt | HTML5 | CSS | SASS | Bootstrap HTML | Google Font | Font
+            Awesome | Heroku</h1>
+          <div class="icon-size">
+            <i class="devicon-ruby-plain-wordmark colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-postgresql-plain-wordmark colored"></i>
+            <i class="devicon-sass-original colored"></i>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            <i class="devicon-heroku-plain-wordmark colored"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <!-- DREAM RECALL -->
+  <section class="section reveal section-padding">
+    <div class="container">
+      <div class="columns is-variable bd-klmn-columns is-8">
+        <div class="column">
+          <h1 class="title">Dream Recall</h1>
+          <h2 class="subtitle">
+            Oh no! Drakey-head just had some cool dreams but they're slipping away.. Concentrate on the dreams you are first shown and match them on the next screen. Player 2 takes their turn and the best score wins!</h2>
+          <h1>
+            <strong>TECHNOLOGIES:</strong>
+            <br> Vanilla JavaScript | jQuery | HTML5 | CSS | Google Fonts | Giphy Gifs
+            <br> </h1>
+          <div class="icon-size">
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-jquery-plain-wordmark colored"></i>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+          </div>
+        </div>
+        <div class="column is-6">
+          <figure class="image is-4by3 image-border">
+            <a href="https://gebigoma.github.io/dreamrecall/" target="_blank">
+              <img src="./images/dream_recall.png">
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- GRID -->
+  <section>
+    <div class="columns is-multiline is-centered is-gapless">
+      <div class="column is-5 hvr-fade">
+        <figure class="image is-4by3 grid-border ">
+          <a href="https://frozen-reaches-89510.herokuapp.com/" target="_blank">
+            <img src="./images/sugarfree_3.jpeg">
+          </a>
+        </figure>
+      </div>
+      <div class="column is-5">
+        <figure class="image is-4by3 grid-border">
+          <a href="https://stark-castle-27893.herokuapp.com/" target="_blank">
+            <img src="./images/surf_buddy.png">
+          </a>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="columns is-multiline is-centered is-gapless">
+      <div class="column is-5">
+        <figure class="image is-4by3 grid-border">
+          <a href="https://enigmatic-ridge-61588.herokuapp.com/" target="_blank">
+            <img src="./images/campsite_findr_2.png">
+          </a>
+        </figure>
+      </div>
+      <div class="column is-5">
+        <figure class="image is-4by3 grid-border">
+          <a href="https://gebigoma.github.io/dreamrecall/" target="_blank">
+            <img src="./images/dream_recall.png">
+          </a>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+        </div>
+      </footer>
+  
+  <!-- IMPORT SCRIPTS -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <script src="index.js"></script>
 </body>
+
 </html>

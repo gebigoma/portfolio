@@ -21,7 +21,7 @@
   <!-- NAVBAR -->
   <nav class="navbar is-transparent is-fixed-top">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#">Logo Here</a>
+      <a class="navbar-item" href="#"><img src="images/tina_heart_2.png"></a>
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>
         <span></span>
@@ -30,13 +30,13 @@
     </div>
     <div id="navbarExampleTransparentExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="#">Home</a>
+        <!-- <a class="navbar-item" href="#"><img src="images/tina_heart_logo.png"></a> -->
       </div>
       <div class="navbar-end">
         <div class="navbar-item">
-          <a class="navbar-item">Test #1</a>
-          <a class="navbar-item">Test #2</a>
-          <a class="navbar-item">Test #3</a>
+          <a class="navbar-item" href="#portfolio-start">Portfolio</a>
+          <a class="navbar-item" href="#about">About</a>
+          <a class="navbar-item" href="#contact">Contact</a>
         </div>
       </div>
     </div>
@@ -54,6 +54,7 @@
         </h2>
       </div>
     </div>
+    <div class="hero-foot is-centered"id="portfolio-start"><h1>hello!</h1></div>
   </section>
 
   <!-- SUGARFREE GALLERY -->
@@ -118,7 +119,7 @@
           </div>
         </div>
         <div class="column is-6">
-          <figure class="image is-5by3 image-border">
+          <figure class="image is-4by3 image-border">
             <a href="https://stark-castle-27893.herokuapp.com/" target="_blank">
               <img src="./images/surf_buddy.png">
             </a>
@@ -194,6 +195,7 @@
         </div>
       </div>
     </div>
+    <div id="about"></div>
   </section>
 
   <!-- Skills -->
@@ -223,7 +225,7 @@
 <div class="reveal">
   <section class="grid-section">
     <!-- 1st row -->
-    <div class="columns is-multiline is-centered is-gapless">
+    <div class="columns is-centered is-gapless">
       <!-- 1st box -->
       <div class="column is-4 box">
         <figure class="image is-4by3 grid-border">
@@ -249,7 +251,7 @@
   </section>
   <section>
     <!-- 2nd row -->
-    <div class="columns is-multiline is-centered is-gapless">
+    <div class="columns is-centered is-gapless">
         <!-- 2nd box -->
         <div class="column is-4 box">
           <figure class="image is-4by3 grid-border">
@@ -276,20 +278,26 @@
 </div>
 
   <!-- FOOTER -->
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <div class="content has-text-centered">
-      <p>
-        <strong>Bulma</strong> by
-        <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
-        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-      </p>
+        <h1 class="footer-style" style="font-size: 170%; font-weight: 700">
+          <i class="fas fa-envelope"></i> 
+          CONTACT ME: 
+          <a class="footer-style" href="mailto:tinasunpark@gmail.com?" target="_top">tinasunpark@gmail.com</a></h1>
+            <div class="column no-padding">
+            <span style="font-size: 250%;">
+              <a class="footer-style" href="https://github.com/gebigoma" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a class="footer-style" href"#"><i class="fab fa-linkedin"></i></a></span>
+            </div>
+              <div class="column tina-padding"><a href="#"><img style="width: 75px;" src="images/tina_heart_2.png"></a></div>
     </div>
   </footer>
 
   <!-- IMPORT SCRIPTS -->
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
 

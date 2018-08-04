@@ -34,9 +34,36 @@ h1 {
 .section-padding {
   padding: 5.5rem 1.5rem !important;
 }
-
+ 
 .footer {
-  margin-top: 5rem;
+  margin-top: 8rem;
+  background-color: rgb(204, 204, 204);
+  padding: 4rem 1.5rem 0rem;
+}
+
+.footer-style {
+  color:rgb(255, 255, 255) !important;
+}
+
+.footer-style a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+} 
+
+.fa-github-square:hover {
+ color: gray;
+}
+
+.fa-linkedin:hover {
+  color: gray;  
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.tina-padding {
+  padding: 2rem 0 0.8rem;
 }
 
 .box {
@@ -88,9 +115,19 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(177, 177, 177, 0.961), rgba(255, 255, 255, 0));
+  margin: 0px !important;
 }
 
 .grid-section {
   margin-top: 5rem;
+}
+
+@media screen and (min-width: 1300px) {
+  .navbar-brand {
+    padding-left: 80px;
+  } 
+  .navbar-end {
+    padding-right: 80px;
+  }
 }
 

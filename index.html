@@ -15,6 +15,7 @@
   <!-- import local stylesheet -->
   <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
 
   <!-- NAVBAR -->
@@ -43,17 +44,17 @@
 
   <!-- HERO -->
   <section class="hero is-fullheight hero-image">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Tina Park
-          </h1>
-          <h2 class="subtitle">
-            A web developer yada yada
-          </h2>
-        </div>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Tina Park
+        </h1>
+        <h2 class="subtitle">
+          A web developer yada yada
+        </h2>
       </div>
-    </section>
+    </div>
+  </section>
 
   <!-- SUGARFREE GALLERY -->
   <section class="section reveal section-padding">
@@ -69,7 +70,7 @@
         <div class="column">
           <h1 class="title">Sugarfree Gallery</h1>
           <h2 class="subtitle">
-            Come discover your next sugar-free recipe. Sugarfree Gallery is an aggregate site of original recipes submitted by healthy
+            Come discover your next sugar-free recipe! Sugarfree Gallery is an aggregate site of original recipes submitted by healthy
             bloggers around the world.</h2>
           <h1>
             <strong>TECHNOLOGIES:</strong>
@@ -171,7 +172,8 @@
         <div class="column">
           <h1 class="title">Dream Recall</h1>
           <h2 class="subtitle">
-            Oh no! Drakey-head just had some cool dreams but they're slipping away.. Concentrate on the dreams you are first shown and match them on the next screen. Player 2 takes their turn and the best score wins!</h2>
+            Oh no! Drakey-head just had some cool dreams but they're slipping away.. Concentrate on the dreams you are first shown and
+            match them on the next screen. Player 2 takes their turn and the best score wins!</h2>
           <h1>
             <strong>TECHNOLOGIES:</strong>
             <br> Vanilla JavaScript | jQuery | HTML5 | CSS | Google Fonts | Giphy Gifs
@@ -193,56 +195,73 @@
       </div>
     </div>
   </section>
-  
+
+  <!-- Skills -->
+
   <!-- GRID -->
   <section>
     <div class="columns is-multiline is-centered is-gapless">
-      <div class="column is-5 hvr-fade">
-        <figure class="image is-4by3 grid-border ">
-          <a href="https://frozen-reaches-89510.herokuapp.com/" target="_blank">
-            <img src="./images/sugarfree_3.jpeg">
-          </a>
-        </figure>
-      </div>
-      <div class="column is-5">
+      <!-- 1st box -->
+      <div class="column is-4 box">
         <figure class="image is-4by3 grid-border">
-          <a href="https://stark-castle-27893.herokuapp.com/" target="_blank">
+          <img src="./images/sugarfree_3.jpeg" class="grid-image">
+        </figure>
+        <div class="middle">
+          <div class="text">
+            <a class="grid-link" href="https://frozen-reaches-89510.herokuapp.com/" target="_blank">Sugarfree Gallery</a>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd box -->
+      <div class="column is-4 box">
+        <figure class="image is-4by3 grid-border">
+          <img src="./images/campsite_findr_2.png">
+        </figure>
+        <div class="middle">
+          <div class="text">
+            <a class="grid-link" href="https://enigmatic-ridge-61588.herokuapp.com/" target="_blank">Campsite Findr</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section>
+      <div class="columns is-multiline is-centered is-gapless">
+        <div class="column is-4 box">
+          <figure class="image is-4by3 grid-border">
             <img src="./images/surf_buddy.png">
-          </a>
-        </figure>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="columns is-multiline is-centered is-gapless">
-      <div class="column is-5">
-        <figure class="image is-4by3 grid-border">
-          <a href="https://enigmatic-ridge-61588.herokuapp.com/" target="_blank">
-            <img src="./images/campsite_findr_2.png">
-          </a>
-        </figure>
-      </div>
-      <div class="column is-5">
-        <figure class="image is-4by3 grid-border">
-          <a href="https://gebigoma.github.io/dreamrecall/" target="_blank">
+          </figure>
+          <div class="middle">
+            <div class="text">
+              <a class="grid-link" href="https://stark-castle-27893.herokuapp.com/" target="_blank">Surf Buddy</a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-4 box">
+          <figure class="image is-4by3 grid-border">
             <img src="./images/dream_recall.png">
-          </a>
-        </figure>
+          </figure>
+          <div class="middle">
+            <div class="text">
+              <a class="grid-link" href="https://gebigoma.github.io/dreamrecall/" target="_blank">Dream Recall</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   </section>
 
   <!-- FOOTER -->
-    <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-          </p>
-        </div>
-      </footer>
-  
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by
+        <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
   <!-- IMPORT SCRIPTS -->
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>

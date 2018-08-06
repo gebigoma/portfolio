@@ -14,7 +14,6 @@ body {
   box-shadow: 0 5px 10px 0 rgba(164, 162, 162, 0.13), 0 3px 10px 0 rgba(201, 201, 201, 0.12);
 }
 
-
 .icon-size {
   font-size: 50px;
 }
@@ -23,15 +22,11 @@ h1 {
   font-size: 1.15em;
 }
 
- .hero-image {
+.hero-image {
   background: 
-  linear-gradient(180deg,
-  rgba(223, 223, 223, 0.5),
-    rgb(242, 242, 242)
-  ),
-  url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1189&q=80);
-  /*url("images/Screen\ Shot\ 2018-08-03\ at\ 5.05.38\ PM.png");*/
-  background-size:cover;
+    linear-gradient( 180deg,rgba(223, 223, 223, 0.12), rgb(242, 242, 242) ),
+    url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1189&q=80);
+  background-size: cover;
 } 
 
 .section-padding {
@@ -94,24 +89,12 @@ transform: translate(-50%, -50%);
 text-align: center;
 }
 
-.grid-link{
-  color: white;
-}
-
-
 .box:hover .image {
   opacity: 0.3;
 }
 
 .box:hover .middle {
   opacity: 1;
-}
-
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
 }
 
 hr {

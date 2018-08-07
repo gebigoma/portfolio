@@ -1,9 +1,24 @@
 body {
   background-color: rgb(242, 242, 242);
+  font-family: 'Nunito', sans-serif;
 }
 
-.fa-sort-down{
-  color: #808080;
+.google-font {
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 4px;
+}
+
+.item-one:hover{
+  color: #4a4a4a !important;
+  text-decoration: underline;
+}
+.item-two:hover{
+  color: #4a4a4a !important;
+  text-decoration: underline;
+}
+.item-three:hover{
+  color: #4a4a4a !important;
+  text-decoration: underline;
 }
 .image-border {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -15,7 +30,7 @@ body {
 }
 
 .icon-size {
-  font-size: 50px;
+  font-size: 48px;
 }
 
 h1 {
@@ -34,8 +49,8 @@ h1 {
 }
  
 .footer {
-  margin-top: 8rem;
-  background-color: rgb(204, 204, 204);
+  margin-top: 4rem;
+  background-color: rgb(156, 156, 156);
   padding: 4rem 1.5rem 0rem;
 }
 
@@ -49,11 +64,11 @@ h1 {
 } 
 
 .fa-github-square:hover {
- color: gray;
+ color: #4d4d4d;
 }
 
 .fa-linkedin:hover {
-  color: gray;  
+  color: #4d4d4d;  
 }
 
 .no-padding {

@@ -1,3 +1,5 @@
+$(".fade").hide(0).fadeIn(800)
+
 // BURGER MENU
 document.addEventListener('DOMContentLoaded', () => {
   // Get all "navbar-burger" elements

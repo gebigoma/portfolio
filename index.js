@@ -1,5 +1,5 @@
 // HEADER ANIMATION
-$(".fade").hide(0).fadeIn(1000)
+$(".fade").hide(0).fadeIn(850)
 
 // BURGER MENU
 document.addEventListener('DOMContentLoaded', () => {
@@ -31,14 +31,14 @@ window.sr = ScrollReveal({ reset: false });
 sr.reveal(
     '.reveal', {
        duration: 1000, 
-       delay: 300,
+       delay: 200,
        rotate: { x: 10, y: 0, z: 0 },
-       distance: '20px', 
+       distance: '50px', 
        easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)',
        mobile: true,
        viewFactor: 0.4
       });
-sr.reveal('.bar');
+// sr.reveal('.bar');
 
 // SMOOTH SCROLL TO SECTION
 $(document).ready(function(){

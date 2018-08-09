@@ -1,3 +1,4 @@
+// HEADER ANIMATION
 $(".fade").hide(0).fadeIn(1000)
 
 // BURGER MENU
@@ -21,16 +22,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // DOM LOAD ANIMATE ARROW
-$(document).ready(function() {
-  $("#element-to-animate").addClass("animation"); 
-  });
+// $(document).ready(function() {
+//   $("#element-to-animate").addClass("animation"); 
+//   });
 
   // SCROLL REVEAL
 window.sr = ScrollReveal({ reset: false });
 sr.reveal(
     '.reveal', {
        duration: 1000, 
-       delay: 100,
+       delay: 300,
        rotate: { x: 10, y: 0, z: 0 },
        distance: '20px', 
        easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)',

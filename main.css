@@ -16,14 +16,17 @@ body {
   color: #4a4a4a !important;
   text-decoration: underline;
 }
+
 .item-two:hover{
   color: #4a4a4a !important;
   text-decoration: underline;
 }
+
 .item-three:hover{
   color: #4a4a4a !important;
   text-decoration: underline;
 }
+
 .image-border {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow:0 4px 8px 0 rgba(146, 145, 145, 0.2), 0 6px 20px 0 rgba(105, 105, 105, 0.19);
@@ -103,6 +106,43 @@ hr {
   margin-top: 5rem;
 }
 
+.tooltip {
+  position: relative;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.687);
+  color: rgb(255, 255, 255);
+  height: 80px;
+  top: 125%;
+  left: 50%; 
+  margin-left: -140px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 95%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.687) transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 @media screen and (min-width: 1300px) {
   .navbar-brand {
     padding-left: 80px;
@@ -111,5 +151,7 @@ hr {
     padding-right: 80px;
   }
 }
+
+
 
 

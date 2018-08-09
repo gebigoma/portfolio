@@ -1,4 +1,4 @@
-$(".fade").hide(0).fadeIn(800)
+$(".fade").hide(0).fadeIn(1000)
 
 // BURGER MENU
 document.addEventListener('DOMContentLoaded', () => {
